@@ -1,14 +1,22 @@
+html {
+    background-image: url(Images/green-slate.jpg);
+    background-size: 100%;
+}
+
 body {
     text-align: center;
 }
 
 #display {
     width: 795px;
-    text-align: left;
+    text-align: right;
     margin-top: 7%;
     border: 1px solid black;
     margin-left: 275px;
     margin-bottom: 30px;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 20px;
+    background-color: rgba(238, 255, 0, 0.432);
 }
 
 #buttons {
@@ -23,9 +31,14 @@ body {
     border: 1px solid black;
     border-radius: 25px;
     margin: 5px;
+    background-color: rgba(255, 255, 255, 0.753);
 }
 
 #clear {
     border-color: red;
     color: red;
+}
+
+button:hover {
+    border: 2px solid black;
 }

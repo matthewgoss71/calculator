@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+}
+
+#display {
+    width: 795px;
+    text-align: left;
+    margin-top: 7%;
+    border: 1px solid black;
+    margin-left: 275px;
+    margin-bottom: 30px;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    padding-left: 275px;
+    padding-right: 150px;
+}
+
+.num, .operate {
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+#clear {
+    border-color: red;
+    color: red;
+}
